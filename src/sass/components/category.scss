@@ -1,0 +1,33 @@
+/* Transition */
+.slide-up-appear {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.5s ease;
+
+  &.slide-up-appear-active {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.carousel-enter {
+  opacity: 0.01;
+  transform: translateX(100 vw);
+}
+
+.carousel-enter.carousel-enter-active {
+  opacity: 1;
+  transition: 4000ms ease-out;
+  transform: translateX(0%);
+}
+
+.carousel-leave {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.carousel-leave.carousel-leave-active {
+  opacity: 0.01;
+  transition: 4000ms ease-out;
+  transform: translateX(-100vw);
+}

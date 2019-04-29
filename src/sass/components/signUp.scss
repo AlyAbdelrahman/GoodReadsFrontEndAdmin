@@ -1,0 +1,60 @@
+.form-control {
+  border: none;
+  background: #f0f0e9;
+  color: $color-dark;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  height: 3.5rem;
+  margin-bottom: 1rem;
+  outline: medium none;
+  padding-left: 1rem;
+  width: 100%;
+}
+
+.btn-primary,
+.btn-default,
+.btn-secondary {
+  background-color: $color-primary !important;
+  border: medium none;
+  border-radius: 0;
+  color: $color-white;
+  font-family: "Roboto", sans-serif;
+  padding: 0.8rem 2.7rem;
+  width: 40%;
+  font-size: 1.7rem;
+  font-weight: 500;
+  &:hover {
+    background-color: $color-primary !important;
+  }
+  &:active {
+    background-color: $color-primary !important;
+    border: none !important;
+    border: medium none !important;
+    border-radius: 0 !important;
+  }
+  &focus {
+    background-color: $color-primary;
+  }
+}
+
+.caroul {
+  margin-top: 4rem;
+}
+.slide,
+.carousel-inner {
+  width: 95%;
+  height: 100%;
+
+  & img {
+    border: 3px solid transparent;
+    border-radius: 1.5rem;
+  }
+}
+
+.carousel-indicators {
+  text-align: center;
+  margin-left: 0;
+  margin-top: 2rem;
+  width: 80%;
+}

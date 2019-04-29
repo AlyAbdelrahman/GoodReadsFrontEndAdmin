@@ -1,0 +1,27 @@
+.default-navBar {
+  background-color: $color-gray;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+  &__login-area {
+    font-size: 1.6rem;
+    color: $color-primary;
+    font-family: "Roboto", sans-serif;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.logo {
+  float: left;
+  & .logo-word {
+    color: #743558;
+    font-size: 4.3rem;
+    font-weight: bold;
+  }
+
+  & .second-word {
+    color: #3c4763;
+    font-size: 3rem;
+  }
+}

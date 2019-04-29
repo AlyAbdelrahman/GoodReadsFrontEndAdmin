@@ -1,0 +1,46 @@
+.nav-link {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 0.7rem;
+  text-align: center;
+  margin: 1.1rem;
+  color: $color-dark;
+  box-sizing: border-box;
+  &:hover {
+    background-color: $color-primary;
+    color: $color-white;
+  }
+}
+
+.navbar {
+  background-color: $color-gray !important;
+}
+.Logo-Part {
+  font-size: 4rem;
+  font-weight: bold;
+  color: $color-primary;
+  &-2 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: $color-gray-light;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg);
+  }
+}
+
+.nav-link {
+  color: $color-gray-light !important;
+}
+.navbar-nav {
+  margin-left: 30rem !important;
+}
+
+.form-inline {
+  margin-right: 5rem;
+  font-size: 1.4rem;
+}
+
+.searchBar {
+  background-color: $light;
+}

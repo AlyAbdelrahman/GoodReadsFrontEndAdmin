@@ -1,0 +1,57 @@
+.display-links {
+  background-color: $color-gray;
+  text-align: center;
+  margin-left: 7rem;
+}
+
+.page-Header {
+  border-bottom: 0.2rem solid #000;
+  width: 100%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  font-size: 3.5rem;
+  color: $color-secondary;
+  font-family: cursive;
+  font-weight: 700;
+}
+
+.links {
+  font-size: 1.6rem;
+  font-weight: 500;
+  border-color: transparent;
+  background-color: transparent;
+  &:hover,
+  &:active,
+  &:visited,
+  &:focus {
+    border-color: transparent;
+    background-color: transparent;
+  }
+}
+
+.image {
+  max-height: 50%;
+  max-width: 90%;
+}
+
+.books tbody td {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.books tbody .book-title {
+  cursor: pointer;
+}
+.book-title {
+  cursor: pointer;
+}
+
+.user-home .table td {
+  color: $color-secondary !important;
+}
+.user-home .table thead {
+  text-align: left !important;
+}
+
+.page-content {
+  min-height: 40rem !important;
+}

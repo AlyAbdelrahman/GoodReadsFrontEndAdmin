@@ -1,0 +1,66 @@
+.login__link {
+  text-decoration: none;
+  color: $color-primary;
+  font-size: 1.6rem;
+  font-weight: 500;
+  &:hover,
+  &:active {
+    text-decoration: none;
+    color: $color-primary;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+}
+.login-form .login__btn {
+  margin-left: 17rem;
+  width: 20rem;
+  background-color: $color-secondary;
+  height: 5rem;
+  border: 2px solid $color-secondary;
+  font-size: 1.8rem;
+  border-radius: 0.7rem;
+  color: $color-white;
+  font-weight: 600;
+  &:hover,
+  &:visited {
+    margin-left: 17rem;
+    width: 20rem;
+    background-color: $color-secondary2;
+    border: 2px solid $color-secondary2;
+    font-size: 1.8rem;
+    color: $color-white;
+    font-weight: 600;
+  }
+}
+.form-group1 {
+  margin-bottom: 2rem;
+}
+
+.form-control1 {
+  font-size: 1.5rem;
+  padding: 0.7rem;
+  background-color: $color-secondary3;
+}
+
+.login-form {
+  margin: auto;
+  border: 0.3rem solid transparent;
+  border-radius: 2.5rem;
+  padding: 6rem;
+  justify-content: center;
+  background-color: $color-primary;
+}
+
+.login-form .form-group1 {
+  margin-left: 3rem;
+}
+.form-group1 input {
+  width: 90% !important;
+  height: 5.5rem;
+  margin: 2.5rem;
+  border-radius: 1.2rem;
+}
+
+.cardUp {
+  color: $color-primary !important;
+}

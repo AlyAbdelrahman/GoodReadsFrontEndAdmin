@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+header img {
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  width: 130px;
+  height: 130px;
+  border: 2px solid #fff;
+}
+
+aside {
+  border-top: 0px solid #26a69a;
+  border-bottom: 0px solid #00695c;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  height: 170px;
+  width: 170px;
+  background: url(https://images.pexels.com/photos/2078266/pexels-photo-2078266.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: 0 0 100px 10px #fff;
+  transition: all ease 0.3s;
+}
+
+aside:hover {
+  border-top: 4px solid #26a69a;
+  border-bottom: 4px solid #00695c;
+  border-radius: 5px;
+  height: 310px;
+  width: 300px;
+  box-shadow: 0 0 70px 10px #fff;
+}
+
+aside:hover header img {
+  animation: profile_image 2000ms linear both;
+  animation-delay: 0.5s;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  line-height: 25px;
+  display: inline-block;
+  padding: 10px;
+  transition: all ease 0.25s;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+aside:hover header h1 {
+  margin-top: 0px;
+  outline: 0 solid #fff;
+  border-top: 0px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+header h2 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 0px;
+  margin: 0;
+}
+
+.profile-bio {
+  margin-top: 20px;
+  padding: 1px 20px 10px 20px !important;
+  transition: all linear 1.5s;
+  color: #fff;
+  font-size: 14px;
+  opacity: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.42) 49%, rgba(0, 0, 0, 0.61) 100%);
+}
+
+aside:hover .profile-bio {
+  opacity: 1;
+}
+
+.profile-bio p:first-child {
+  text-align: center;
+  font-size: 16px;
+}
+
+.profile-social-links {
+  position: relative;
+  margin-top: -440px;
+  margin-left: -100px;
+  list-style-type: none;
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+
+aside:hover .profile-social-links {
+  margin-left: -30px;
+  opacity: 1;
+}
+
+.profile-social-links li img {
+  width: 30px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+aside:hover header h1 {
+  animation: name_and_job 1500ms linear both;
+  animation-delay: 0.4s;
+}
+
+aside:hover ul li:first-child {
+  animation: social_animation 2000ms ease-in-out both;
+  animation-delay: 0.75s;
+}
+
+aside:hover ul li:nth-child(2) {
+  animation: social_animation 2000ms ease-in-out both;
+  animation-delay: 1s;
+}
+
+aside:hover ul li:nth-child(3) {
+  animation: social_animation 2000ms ease-in-out both;
+  animation-delay: 1.25s;
+}
+
+.AuthorPhoto{
+  width:30px;
+  height: 30px;;
+}

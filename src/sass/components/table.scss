@@ -1,0 +1,46 @@
+.table {
+  & thead {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: $color-dark;
+    text-align: center;
+  }
+  & tbody td a {
+    font-size: 1.7rem;
+    font-weight: 500;
+
+    color: $color-secondary !important;
+    &:hover {
+      text-decoration: none !important;
+    }
+
+    & .svg-inline--fa {
+      margin-left: 0.9rem;
+      margin-right: 0.9rem;
+      color: $color-primary;
+      font-size: 1.7rem;
+    }
+  }
+}
+
+.add-icon {
+  background: $color-primary;
+  border-radius: 50%;
+  color: $color-white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  height: 5rem;
+  line-height: 5rem;
+
+  margin-left: 2rem;
+  text-align: center;
+  width: 5rem !important;
+  padding-left: 0rem !important;
+  position: fixed;
+  // animation-name: spin;
+  // animation-duration: 4000ms;
+  // animation-iteration-count: infinite;
+  // animation-timing-function: linear;
+}
+
+// //////////////////////////////////////////////////////

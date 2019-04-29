@@ -1,0 +1,36 @@
+body {
+  background-color: $light;
+  background-size: cover;
+  min-height: 60rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+h2,
+h1 {
+  margin-bottom: 1.7srem;
+  font-weight: 500;
+  font-family: cursive;
+  color: $color-black-light;
+}
+
+h3 {
+  font-family: cursive;
+}
+
+.list-group {
+  flex-direction: row;
+  &-item {
+    margin-right: 1.5rem;
+  }
+}

@@ -1,0 +1,31 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto:400, 300, 400italic, 500, 700, 100");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400, 800, 300, 600, 700");
+@import url("http://fonts.googleapis.com/css?family=Abel");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700");
+
+@import "./abstracts/_functions.scss";
+@import "./abstracts/_mixins.scss";
+@import "abstracts/_variables.scss";
+
+@import "components/upperNavBar.scss";
+@import "components/dropDown.scss";
+@import "components/defaultNavBar.scss";
+@import "components/signUp.scss";
+@import "components/userNavbar.scss";
+@import "components/login.scss";
+@import "components/Stars.scss";
+@import "components/table.scss";
+@import "components/category.scss";
+@import "components/pagination.scss";
+@import "components/bookInfo.scss";
+@import "components/authorCard.scss";
+@import "components/categoryCard.scss";
+
+@import "base/_animation.scss";
+@import "base/_base.scss";
+@import "base/_reset.scss";
+@import "base/_typography.scss";
+@import "base/_utilites.scss";
+
+@import "pages/userHomePage.scss";
+@import "pages/bookDetails.scss";
