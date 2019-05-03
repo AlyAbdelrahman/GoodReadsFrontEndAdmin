@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = process.env.REACT_APP_BackEnd_URL || "http://localhost:3000";
+const URL = process.env.REACT_APP_BackEnd_URL || "https://goodreadsback.herokuapp.com";
 
 export const adminLogin = ({ name, password }) => {
   //   debugger;

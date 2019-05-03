@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BACKEN_URL="http://localhost:3000";
+const BACKEN_URL="https://goodreadsback.herokuapp.com";
 
 //------------------------------------Get All Authors----------------------------------//
 export const CategoryiesInfo=(app)=>{
